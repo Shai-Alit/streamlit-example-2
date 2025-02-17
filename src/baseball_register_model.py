@@ -1,3 +1,4 @@
+import os
 import sasctl
 from sasctl import pzmm
 from sasctl import Session
@@ -5,8 +6,9 @@ from sasctl.services import model_repository as mr, model_management as mm
 from pathlib import Path
 import requests
 
+WORKSPACE = os.environ['WORKSPACE']
 
-with open('/workspaces/myfolder/creds.json') as f:
+with open(WORKSPACE + '/workspaces/myfolder/creds.json') as f:
     creds = json.load(f)
 
 st = Session(creds['verde']['host'], token=creds['verde']['token'], verify_ssl=False)
