@@ -6,12 +6,10 @@ Created on Wed Feb 21 11:15:32 2024
 """
 
 #import packages required to run the application
-import json
+
 import pandas as pd
 import numpy as np
 import streamlit as st
-import keyring as kr
-from viyapy import viya_utils
 from PIL import Image
 import plotly.express as px
 from score_rf import score_rf_model
