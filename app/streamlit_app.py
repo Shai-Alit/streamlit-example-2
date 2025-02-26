@@ -100,7 +100,7 @@ decisionID1 = 'c9e22367-af5e-4385-b58a-69fa945f21e9'
 #start building the web application using the streamlit components
 st.title('1986 MLB Salary Prediction')
 
-image0 = Image.open('../img/baseball_img.PNG')
+image0 = Image.open('./img/baseball_img.PNG')
 st.image(image0)
 
 st.write("This web app predicts an MLB player's 1987 salary given their stats up through the 1986 season.")
