@@ -1,9 +1,11 @@
 # streamlit-example-2
 
 This example contains everything needed to run a model inside a Docker container </br>
-src - model training code </br>
+src </br>
+    - model training code </br>
     - scoring code for testing
-app - requirements for python environment </br>
+app </br>
+    - requirements for python environment </br>
     - score code for deployment </br>
     - settings for deployed environment </br>
     - application front end code </br>
