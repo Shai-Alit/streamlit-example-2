@@ -2,7 +2,7 @@
 
 This example contains everything needed to run a model inside a Docker container </br>
 src - model training code </br>
-    <t>- scoring code for testing </t>
+    - scoring code for testing
 app - requirements for python environment </br>
     - score code for deployment </br>
     - settings for deployed environment </br>
